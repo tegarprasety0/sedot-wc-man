@@ -1,0 +1,328 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SedotWC Pro | Layanan</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- NAVBAR -->
+    <nav class="relative z-50 bg-blue-900 text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold whitespace-nowrap" aria-label="SedotWC Pro, Beranda">SedotWC<span class="text-yellow-400">Pro.</span></a>
+            <button id="menuToggle" type="button" class="md:hidden inline-flex items-center justify-center p-2 hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-yellow-400" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mainMenu">
+                <svg id="menuIcon" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" d="M4 6h16M4 12h16M4 18h16" /></svg>
+            </button>
+            <div id="mainMenu" class="hidden absolute left-0 right-0 top-full flex-col gap-1 bg-blue-900 px-4 pb-4 shadow-lg md:static md:flex md:flex-row md:items-center md:gap-7 md:bg-transparent md:p-0 md:shadow-none">
+                <a href="index.html" class="px-3 py-2 hover:bg-blue-800 hover:text-yellow-400 md:px-0 md:hover:bg-transparent">Beranda</a>
+                <a href="layanan.html" aria-current="page" class="px-3 py-2 text-yellow-400 font-semibold md:px-0">Layanan</a>
+                <a href="tentang.html" class="px-3 py-2 hover:bg-blue-800 hover:text-yellow-400 md:px-0 md:hover:bg-transparent">Tentang Kami</a>
+                <a href="pemesanan.html" class="mt-2 bg-yellow-400 px-5 py-3 text-center font-bold text-blue-950 hover:bg-yellow-300 md:mt-0 md:py-2">Pesan Sekarang</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- HEADER -->
+    <section class="bg-blue-900 text-white text-center py-16 px-6">
+
+        <h2 class="text-4xl font-bold">
+            Layanan Kami
+        </h2>
+
+        <p class="mt-4 text-blue-100">
+            Berbagai solusi untuk kebutuhan sanitasi rumah dan tempat usaha Anda.
+        </p>
+
+    </section>
+
+
+    <!-- DAFTAR LAYANAN -->
+    <section class="max-w-7xl mx-auto px-6 py-16">
+
+        <h2 class="text-3xl font-bold text-blue-900 text-center mb-10">
+            Pilihan Layanan
+        </h2>
+
+
+        <div class="grid md:grid-cols-3 gap-8">
+
+            <!-- LAYANAN 1 -->
+            <div class="bg-white shadow-lg overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600"
+                    alt="Teknisi layanan sedot WC"
+                    class="w-full h-48 object-cover"
+                >
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-blue-900">
+                        Sedot WC Rumah
+                    </h3>
+
+                    <p class="text-gray-500 mt-3">
+                        Layanan penyedotan septic tank untuk rumah tinggal.
+                    </p>
+
+                    <p class="text-blue-700 font-bold mt-4">
+                        Mulai Rp350.000
+                    </p>
+
+                    <a href="pemesanan.html"
+                       class="block text-center bg-blue-700 text-white p-3 mt-5 hover:bg-blue-800">
+                        Pesan Layanan
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- LAYANAN 2 -->
+            <div class="bg-white shadow-lg overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600"
+                    alt="Pekerjaan teknisi profesional"
+                    class="w-full h-48 object-cover"
+                >
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-blue-900">
+                        Sedot WC Kantor
+                    </h3>
+
+                    <p class="text-gray-500 mt-3">
+                        Layanan sanitasi untuk perkantoran dan tempat usaha.
+                    </p>
+
+                    <p class="text-blue-700 font-bold mt-4">
+                        Mulai Rp500.000
+                    </p>
+
+                    <a href="pemesanan.html"
+                       class="block text-center bg-blue-700 text-white p-3 mt-5 hover:bg-blue-800">
+                        Pesan Layanan
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- LAYANAN 3 -->
+            <div class="bg-white shadow-lg overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=600"
+                    alt="Teknisi perbaikan saluran"
+                    class="w-full h-48 object-cover"
+                >
+
+                <div class="p-6">
+
+                    <h3 class="text-xl font-bold text-blue-900">
+                        Saluran Tersumbat
+                    </h3>
+
+                    <p class="text-gray-500 mt-3">
+                        Layanan pemeriksaan dan penanganan saluran pembuangan.
+                    </p>
+
+                    <p class="text-blue-700 font-bold mt-4">
+                        Mulai Rp200.000
+                    </p>
+
+                    <a href="pemesanan.html"
+                       class="block text-center bg-blue-700 text-white p-3 mt-5 hover:bg-blue-800">
+                        Pesan Layanan
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- TABEL HARGA -->
+    <section class="bg-blue-50 py-16 px-6">
+
+        <div class="max-w-5xl mx-auto">
+
+            <h2 class="text-3xl font-bold text-blue-900 text-center mb-8">
+                Daftar Harga Layanan
+            </h2>
+
+            <div class="overflow-x-auto bg-white shadow">
+
+                <table class="w-full text-left">
+
+                    <thead class="bg-blue-900 text-white">
+
+                        <tr>
+                            <th class="p-4">No</th>
+                            <th class="p-4">Nama Layanan</th>
+                            <th class="p-4">Keterangan</th>
+                            <th class="p-4">Harga</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr class="border-b">
+                            <td class="p-4">1</td>
+                            <td class="p-4">Sedot WC Rumah</td>
+                            <td class="p-4">Rumah tinggal</td>
+                            <td class="p-4 font-bold">Rp350.000</td>
+                        </tr>
+
+                        <tr class="border-b">
+                            <td class="p-4">2</td>
+                            <td class="p-4">Sedot WC Kantor</td>
+                            <td class="p-4">Perkantoran</td>
+                            <td class="p-4 font-bold">Rp500.000</td>
+                        </tr>
+
+                        <tr>
+                            <td class="p-4">3</td>
+                            <td class="p-4">Saluran Tersumbat</td>
+                            <td class="p-4">Pemeriksaan saluran</td>
+                            <td class="p-4 font-bold">Rp200.000</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <section class="max-w-6xl mx-auto px-4 py-8">
+            
+                <h2 class="text-2xl font-bold mb-5">
+                    Istilah dalam Layanan Sedot WC
+                </h2>
+            
+                <dl class="bg-white p-6 shadow space-y-5">
+                
+                    <div>
+                        <dt class="font-bold text-blue-900">
+                            Sedot WC
+                        </dt>
+                        <dd class="text-gray-600">
+                            Layanan penyedotan limbah dari septic tank
+                            menggunakan peralatan khusus.
+                        </dd>
+                    </div>
+                
+                    <div>
+                        <dt class="font-bold text-blue-900">
+                            Septic Tank
+                        </dt>
+                        <dd class="text-gray-600">
+                            Tempat penampungan dan pengolahan awal
+                            limbah dari toilet.
+                        </dd>
+                    </div>
+                
+                    <div>
+                        <dt class="font-bold text-blue-900">
+                            Saluran Tersumbat
+                        </dt>
+                        <dd class="text-gray-600">
+                            Kondisi ketika aliran air pada saluran
+                            pembuangan mengalami hambatan.
+                        </dd>
+                    </div>
+                
+                </dl>
+            
+            </section>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROSEDUR PEMESANAN -->
+    <section class="max-w-7xl mx-auto px-6 py-16">
+
+        <h2 class="text-3xl font-bold text-blue-900 text-center mb-10">
+            Prosedur Pemesanan
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-10">
+
+            <div class="bg-white p-8 shadow">
+
+                <h3 class="text-xl font-bold text-blue-900 mb-5">
+                    Langkah Pemesanan
+                </h3>
+
+                <ol class="list-decimal pl-6 space-y-3 text-gray-600">
+
+                    <li>Buka halaman pemesanan.</li>
+                    <li>Isi data diri pelanggan.</li>
+                    <li>Pilih jenis layanan.</li>
+                    <li>Masukkan alamat lokasi.</li>
+                    <li>Kirim formulir pemesanan.</li>
+
+                </ol>
+
+            </div>
+
+
+            <div class="bg-white p-8 shadow">
+
+                <h3 class="text-xl font-bold text-blue-900 mb-5">
+                    Persiapan Pelanggan
+                </h3>
+
+                <ul class="list-disc pl-6 space-y-3 text-gray-600">
+
+                    <li>Siapkan alamat lengkap.</li>
+                    <li>Pastikan lokasi dapat diakses kendaraan.</li>
+                    <li>Jelaskan kondisi permasalahan.</li>
+                    <li>Pastikan nomor telepon aktif.</li>
+                    <li>Konfirmasikan jadwal layanan.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-blue-950 text-white text-center py-8">
+
+        <h2 class="text-xl font-bold">SedotWC Pro.</h2>
+
+        <p class="text-blue-200 mt-3">
+            Solusi layanan sanitasi untuk kebutuhan Anda.
+        </p>
+
+        <p class="text-gray-400 text-sm mt-5">
+            &copy; 2026 SedotWC Pro. All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
