@@ -177,7 +177,7 @@ function sapaPengunjung() {
 
     } else {
 
-        alert("Selamat datang di SedotWC Pro!");
+        alert("Selamat datang di SedotWC Man!");
 
     }
 
